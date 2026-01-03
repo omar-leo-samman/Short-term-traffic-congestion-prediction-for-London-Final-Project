@@ -1,1 +1,79 @@
-# Short-term-traffic-congestion-prediction-for-London-Final-Project
+# London Short-Term Traffic Congestion Prediction (London, UK)
+
+This repository contains an end-to-end prototype to **predict short-term traffic congestion in London**
+(15–30 minute horizon) using:
+
+- **TomTom Traffic API** (real-time traffic flow)
+- **Transport for London (TfL) Unified API** (road status & disruptions)
+- **UK Department for Transport (DfT) Road Traffic API** (open road traffic statistics and count points)
+
+## 0) Quick start (Day 1: API smoke tests)
+
+### 0.1 Create a virtual environment
+```bash
+python -m venv .venv
+# Windows: .venv\Scripts\activate
+source .venv/bin/activate
+```
+
+### 0.2 Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 0.3 Configure API keys (DO NOT COMMIT SECRETS)
+1. Copy `.env.example` to `.env`
+2. Fill in your keys:
+```bash
+cp .env.example .env
+```
+
+### 0.4 Run the smoke test notebook
+Open:
+- `notebooks/00_api_smoke_tests.ipynb`
+
+Or run the CLI smoke test:
+```bash
+python -m traffic_forecast.scripts.smoke_test
+```
+
+## 1) Where to put secrets
+
+### Local development
+Create a `.env` file in the project root (same level as `requirements.txt`).
+The code will load it automatically via `python-dotenv`.
+
+### Hugging Face Spaces
+Add these as **Secrets** in your Space settings:
+- `TOMTOM_API_KEY`
+- `TFL_APP_KEY`
+- (optional) `TFL_APP_ID`
+
+Then run the Space app. The same code reads environment variables.
+
+## 2) Repo structure (initial)
+```text
+london-traffic-congestion-forecast/
+├─ notebooks/
+│  └─ 00_api_smoke_tests.ipynb
+├─ src/traffic_forecast/
+│  ├─ config.py
+│  ├─ http.py
+│  ├─ clients/
+│  │  ├─ tomtom.py
+│  │  ├─ tfl.py
+│  │  └─ dft.py
+│  └─ scripts/
+│     └─ smoke_test.py
+├─ sample_responses/
+├─ requirements.txt
+├─ .env.example
+└─ .gitignore
+```
+
+## Notes
+- Do **not** commit `.env` or any file containing API keys.
+- The smoke tests are designed to confirm:
+  - network connectivity
+  - valid API keys
+  - stable response shapes for each provider
