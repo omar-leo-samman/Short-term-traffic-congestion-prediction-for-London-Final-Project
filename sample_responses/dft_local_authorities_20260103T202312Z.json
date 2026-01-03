@@ -1,0 +1,1500 @@
+[
+  {
+    "id": 1,
+    "name": "Isles of Scilly",
+    "region_id": 1,
+    "ita_id": null,
+    "ons_code": "E06000053"
+  },
+  {
+    "id": 2,
+    "name": "Nottinghamshire",
+    "region_id": 2,
+    "ita_id": null,
+    "ons_code": "E10000024"
+  },
+  {
+    "id": 3,
+    "name": "Glasgow City",
+    "region_id": 3,
+    "ita_id": null,
+    "ons_code": "S12000049"
+  },
+  {
+    "id": 4,
+    "name": "North Lanarkshire",
+    "region_id": 3,
+    "ita_id": null,
+    "ons_code": "S12000050"
+  },
+  {
+    "id": 5,
+    "name": "Somerset",
+    "region_id": 1,
+    "ita_id": null,
+    "ons_code": "E06000066"
+  },
+  {
+    "id": 6,
+    "name": "Newport",
+    "region_id": 4,
+    "ita_id": null,
+    "ons_code": "W06000022"
+  },
+  {
+    "id": 7,
+    "name": "Bridgend",
+    "region_id": 4,
+    "ita_id": null,
+    "ons_code": "W06000013"
+  },
+  {
+    "id": 8,
+    "name": "Swansea",
+    "region_id": 4,
+    "ita_id": null,
+    "ons_code": "W06000011"
+  },
+  {
+    "id": 9,
+    "name": "Isle of Anglesey",
+    "region_id": 4,
+    "ita_id": null,
+    "ons_code": "W06000001"
+  },
+  {
+    "id": 10,
+    "name": "Gwynedd",
+    "region_id": 4,
+    "ita_id": null,
+    "ons_code": "W06000002"
+  },
+  {
+    "id": 11,
+    "name": "Conwy",
+    "region_id": 4,
+    "ita_id": null,
+    "ons_code": "W06000003"
+  },
+  {
+    "id": 12,
+    "name": "Denbighshire",
+    "region_id": 4,
+    "ita_id": null,
+    "ons_code": "W06000004"
+  },
+  {
+    "id": 13,
+    "name": "Monmouthshire",
+    "region_id": 4,
+    "ita_id": null,
+    "ons_code": "W06000021"
+  },
+  {
+    "id": 14,
+    "name": "Powys",
+    "region_id": 4,
+    "ita_id": null,
+    "ons_code": "W06000023"
+  },
+  {
+    "id": 15,
+    "name": "Carmarthenshire",
+    "region_id": 4,
+    "ita_id": null,
+    "ons_code": "W06000010"
+  },
+  {
+    "id": 16,
+    "name": "Pembrokeshire",
+    "region_id": 4,
+    "ita_id": null,
+    "ons_code": "W06000009"
+  },
+  {
+    "id": 17,
+    "name": "Neath Port Talbot",
+    "region_id": 4,
+    "ita_id": null,
+    "ons_code": "W06000012"
+  },
+  {
+    "id": 18,
+    "name": "The Vale of Glamorgan",
+    "region_id": 4,
+    "ita_id": null,
+    "ons_code": "W06000014"
+  },
+  {
+    "id": 19,
+    "name": "Cardiff",
+    "region_id": 4,
+    "ita_id": null,
+    "ons_code": "W06000015"
+  },
+  {
+    "id": 20,
+    "name": "Flintshire",
+    "region_id": 4,
+    "ita_id": null,
+    "ons_code": "W06000005"
+  },
+  {
+    "id": 21,
+    "name": "Merthyr Tydfil",
+    "region_id": 4,
+    "ita_id": null,
+    "ons_code": "W06000024"
+  },
+  {
+    "id": 22,
+    "name": "Rhondda, Cynon, Taff",
+    "region_id": 4,
+    "ita_id": null,
+    "ons_code": "W06000016"
+  },
+  {
+    "id": 23,
+    "name": "Ceredigion",
+    "region_id": 4,
+    "ita_id": null,
+    "ons_code": "W06000008"
+  },
+  {
+    "id": 24,
+    "name": "Blaenau Gwent",
+    "region_id": 4,
+    "ita_id": null,
+    "ons_code": "W06000019"
+  },
+  {
+    "id": 25,
+    "name": "Torfaen",
+    "region_id": 4,
+    "ita_id": null,
+    "ons_code": "W06000020"
+  },
+  {
+    "id": 26,
+    "name": "Wrexham",
+    "region_id": 4,
+    "ita_id": null,
+    "ons_code": "W06000006"
+  },
+  {
+    "id": 27,
+    "name": "West Lothian",
+    "region_id": 3,
+    "ita_id": null,
+    "ons_code": "S12000040"
+  },
+  {
+    "id": 28,
+    "name": "Renfrewshire",
+    "region_id": 3,
+    "ita_id": null,
+    "ons_code": "S12000038"
+  },
+  {
+    "id": 29,
+    "name": "City of Edinburgh",
+    "region_id": 3,
+    "ita_id": null,
+    "ons_code": "S12000036"
+  },
+  {
+    "id": 30,
+    "name": "Falkirk",
+    "region_id": 3,
+    "ita_id": null,
+    "ons_code": "S12000014"
+  },
+  {
+    "id": 31,
+    "name": "Perth & Kinross",
+    "region_id": 3,
+    "ita_id": null,
+    "ons_code": "S12000048"
+  },
+  {
+    "id": 32,
+    "name": "Fife",
+    "region_id": 3,
+    "ita_id": null,
+    "ons_code": "S12000047"
+  },
+  {
+    "id": 33,
+    "name": "Scottish Borders",
+    "region_id": 3,
+    "ita_id": null,
+    "ons_code": "S12000026"
+  },
+  {
+    "id": 34,
+    "name": "East Lothian",
+    "region_id": 3,
+    "ita_id": null,
+    "ons_code": "S12000010"
+  },
+  {
+    "id": 35,
+    "name": "Highland",
+    "region_id": 3,
+    "ita_id": null,
+    "ons_code": "S12000017"
+  },
+  {
+    "id": 36,
+    "name": "Midlothian",
+    "region_id": 3,
+    "ita_id": null,
+    "ons_code": "S12000019"
+  },
+  {
+    "id": 37,
+    "name": "South Lanarkshire",
+    "region_id": 3,
+    "ita_id": null,
+    "ons_code": "S12000029"
+  },
+  {
+    "id": 38,
+    "name": "Dumfries & Galloway",
+    "region_id": 3,
+    "ita_id": null,
+    "ons_code": "S12000006"
+  },
+  {
+    "id": 39,
+    "name": "East Ayrshire",
+    "region_id": 3,
+    "ita_id": null,
+    "ons_code": "S12000008"
+  },
+  {
+    "id": 40,
+    "name": "South Ayrshire",
+    "region_id": 3,
+    "ita_id": null,
+    "ons_code": "S12000028"
+  },
+  {
+    "id": 41,
+    "name": "North Ayrshire",
+    "region_id": 3,
+    "ita_id": null,
+    "ons_code": "S12000021"
+  },
+  {
+    "id": 42,
+    "name": "Stirling",
+    "region_id": 3,
+    "ita_id": null,
+    "ons_code": "S12000030"
+  },
+  {
+    "id": 43,
+    "name": "West Dunbartonshire",
+    "region_id": 3,
+    "ita_id": null,
+    "ons_code": "S12000039"
+  },
+  {
+    "id": 44,
+    "name": "Argyll & Bute",
+    "region_id": 3,
+    "ita_id": null,
+    "ons_code": "S12000035"
+  },
+  {
+    "id": 45,
+    "name": "Aberdeenshire",
+    "region_id": 3,
+    "ita_id": null,
+    "ons_code": "S12000034"
+  },
+  {
+    "id": 46,
+    "name": "Moray",
+    "region_id": 3,
+    "ita_id": null,
+    "ons_code": "S12000020"
+  },
+  {
+    "id": 47,
+    "name": "Dundee City",
+    "region_id": 3,
+    "ita_id": null,
+    "ons_code": "S12000042"
+  },
+  {
+    "id": 48,
+    "name": "Inverclyde",
+    "region_id": 3,
+    "ita_id": null,
+    "ons_code": "S12000018"
+  },
+  {
+    "id": 49,
+    "name": "East Dunbartonshire",
+    "region_id": 3,
+    "ita_id": null,
+    "ons_code": "S12000045"
+  },
+  {
+    "id": 50,
+    "name": "Clackmannanshire",
+    "region_id": 3,
+    "ita_id": null,
+    "ons_code": "S12000005"
+  },
+  {
+    "id": 51,
+    "name": "Aberdeen City",
+    "region_id": 3,
+    "ita_id": null,
+    "ons_code": "S12000033"
+  },
+  {
+    "id": 52,
+    "name": "Angus",
+    "region_id": 3,
+    "ita_id": null,
+    "ons_code": "S12000041"
+  },
+  {
+    "id": 53,
+    "name": "Comhairle nan Eilean Siar",
+    "region_id": 3,
+    "ita_id": null,
+    "ons_code": "S12000013"
+  },
+  {
+    "id": 54,
+    "name": "Orkney Islands",
+    "region_id": 3,
+    "ita_id": null,
+    "ons_code": "S12000023"
+  },
+  {
+    "id": 55,
+    "name": "Shetland Islands",
+    "region_id": 3,
+    "ita_id": null,
+    "ons_code": "S12000027"
+  },
+  {
+    "id": 56,
+    "name": "Stockport",
+    "region_id": 5,
+    "ita_id": null,
+    "ons_code": "E08000007"
+  },
+  {
+    "id": 57,
+    "name": "Barnet",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000003"
+  },
+  {
+    "id": 58,
+    "name": "Central Bedfordshire",
+    "region_id": 7,
+    "ita_id": null,
+    "ons_code": "E06000056"
+  },
+  {
+    "id": 59,
+    "name": "Northamptonshire",
+    "region_id": 2,
+    "ita_id": null,
+    "ons_code": "E10000021"
+  },
+  {
+    "id": 60,
+    "name": "Leicestershire",
+    "region_id": 2,
+    "ita_id": null,
+    "ons_code": "E10000018"
+  },
+  {
+    "id": 61,
+    "name": "Derbyshire",
+    "region_id": 2,
+    "ita_id": null,
+    "ons_code": "E10000007"
+  },
+  {
+    "id": 62,
+    "name": "Rotherham",
+    "region_id": 8,
+    "ita_id": null,
+    "ons_code": "E08000018"
+  },
+  {
+    "id": 63,
+    "name": "Leeds",
+    "region_id": 8,
+    "ita_id": null,
+    "ons_code": "E08000035"
+  },
+  {
+    "id": 64,
+    "name": "Medway",
+    "region_id": 9,
+    "ita_id": null,
+    "ons_code": "E06000035"
+  },
+  {
+    "id": 65,
+    "name": "Hampshire",
+    "region_id": 9,
+    "ita_id": null,
+    "ons_code": "E10000014"
+  },
+  {
+    "id": 66,
+    "name": "Hillingdon",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000017"
+  },
+  {
+    "id": 67,
+    "name": "West Berkshire",
+    "region_id": 9,
+    "ita_id": null,
+    "ons_code": "E06000037"
+  },
+  {
+    "id": 68,
+    "name": "Wiltshire",
+    "region_id": 1,
+    "ita_id": null,
+    "ons_code": "E06000054"
+  },
+  {
+    "id": 69,
+    "name": "Worcestershire",
+    "region_id": 10,
+    "ita_id": null,
+    "ons_code": "E10000034"
+  },
+  {
+    "id": 70,
+    "name": "Gloucestershire",
+    "region_id": 1,
+    "ita_id": null,
+    "ons_code": "E10000013"
+  },
+  {
+    "id": 71,
+    "name": "Devon",
+    "region_id": 1,
+    "ita_id": null,
+    "ons_code": "E10000008"
+  },
+  {
+    "id": 72,
+    "name": "Warwickshire",
+    "region_id": 10,
+    "ita_id": null,
+    "ons_code": "E10000031"
+  },
+  {
+    "id": 73,
+    "name": "East Cheshire",
+    "region_id": 5,
+    "ita_id": null,
+    "ons_code": "E06000049"
+  },
+  {
+    "id": 74,
+    "name": "Warrington",
+    "region_id": 5,
+    "ita_id": null,
+    "ons_code": "E06000007"
+  },
+  {
+    "id": 75,
+    "name": "Wigan",
+    "region_id": 5,
+    "ita_id": null,
+    "ons_code": "E08000010"
+  },
+  {
+    "id": 76,
+    "name": "Lancashire",
+    "region_id": 5,
+    "ita_id": null,
+    "ons_code": "E10000017"
+  },
+  {
+    "id": 77,
+    "name": "Cumbria",
+    "region_id": 5,
+    "ita_id": null,
+    "ons_code": "E10000006"
+  },
+  {
+    "id": 78,
+    "name": "Hertfordshire",
+    "region_id": 7,
+    "ita_id": null,
+    "ons_code": "E10000015"
+  },
+  {
+    "id": 79,
+    "name": "Doncaster",
+    "region_id": 8,
+    "ita_id": null,
+    "ons_code": "E08000017"
+  },
+  {
+    "id": 80,
+    "name": "Kent",
+    "region_id": 9,
+    "ita_id": null,
+    "ons_code": "E10000016"
+  },
+  {
+    "id": 81,
+    "name": "West Sussex",
+    "region_id": 9,
+    "ita_id": null,
+    "ons_code": "E10000032"
+  },
+  {
+    "id": 82,
+    "name": "Portsmouth",
+    "region_id": 9,
+    "ita_id": null,
+    "ons_code": "E06000044"
+  },
+  {
+    "id": 83,
+    "name": "Buckinghamshire",
+    "region_id": 9,
+    "ita_id": null,
+    "ons_code": "E06000060"
+  },
+  {
+    "id": 84,
+    "name": "Wirral",
+    "region_id": 5,
+    "ita_id": null,
+    "ons_code": "E08000015"
+  },
+  {
+    "id": 85,
+    "name": "Manchester",
+    "region_id": 5,
+    "ita_id": null,
+    "ons_code": "E08000003"
+  },
+  {
+    "id": 86,
+    "name": "Bury",
+    "region_id": 5,
+    "ita_id": null,
+    "ons_code": "E08000002"
+  },
+  {
+    "id": 87,
+    "name": "Calderdale",
+    "region_id": 8,
+    "ita_id": null,
+    "ons_code": "E08000033"
+  },
+  {
+    "id": 88,
+    "name": "Wakefield",
+    "region_id": 8,
+    "ita_id": null,
+    "ons_code": "E08000036"
+  },
+  {
+    "id": 89,
+    "name": "East Riding of Yorkshire",
+    "region_id": 8,
+    "ita_id": null,
+    "ons_code": "E06000011"
+  },
+  {
+    "id": 90,
+    "name": "Salford",
+    "region_id": 5,
+    "ita_id": null,
+    "ons_code": "E08000006"
+  },
+  {
+    "id": 91,
+    "name": "Trafford",
+    "region_id": 5,
+    "ita_id": null,
+    "ons_code": "E08000009"
+  },
+  {
+    "id": 92,
+    "name": "Durham",
+    "region_id": 11,
+    "ita_id": null,
+    "ons_code": "E06000047"
+  },
+  {
+    "id": 93,
+    "name": "Tower Hamlets",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000030"
+  },
+  {
+    "id": 94,
+    "name": "Sunderland",
+    "region_id": 11,
+    "ita_id": null,
+    "ons_code": "E08000024"
+  },
+  {
+    "id": 95,
+    "name": "Rochdale",
+    "region_id": 5,
+    "ita_id": null,
+    "ons_code": "E08000005"
+  },
+  {
+    "id": 96,
+    "name": "Islington",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000019"
+  },
+  {
+    "id": 97,
+    "name": "Cambridgeshire",
+    "region_id": 7,
+    "ita_id": null,
+    "ons_code": "E10000003"
+  },
+  {
+    "id": 98,
+    "name": "Rutland",
+    "region_id": 2,
+    "ita_id": null,
+    "ons_code": "E06000017"
+  },
+  {
+    "id": 99,
+    "name": "Lincolnshire",
+    "region_id": 2,
+    "ita_id": null,
+    "ons_code": "E10000019"
+  },
+  {
+    "id": 100,
+    "name": "North Yorkshire",
+    "region_id": 8,
+    "ita_id": null,
+    "ons_code": "E06000065"
+  },
+  {
+    "id": 101,
+    "name": "Gateshead",
+    "region_id": 11,
+    "ita_id": null,
+    "ons_code": "E08000037"
+  },
+  {
+    "id": 102,
+    "name": "Northumberland",
+    "region_id": 11,
+    "ita_id": null,
+    "ons_code": "E06000057"
+  },
+  {
+    "id": 103,
+    "name": "Southwark",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000028"
+  },
+  {
+    "id": 104,
+    "name": "Lewisham",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000023"
+  },
+  {
+    "id": 105,
+    "name": "Greenwich",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000011"
+  },
+  {
+    "id": 106,
+    "name": "Bexley",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000004"
+  },
+  {
+    "id": 107,
+    "name": "Lambeth",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000022"
+  },
+  {
+    "id": 108,
+    "name": "Wandsworth",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000032"
+  },
+  {
+    "id": 109,
+    "name": "Westminster",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000033"
+  },
+  {
+    "id": 110,
+    "name": "Kensington and Chelsea",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000020"
+  },
+  {
+    "id": 111,
+    "name": "Hounslow",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000018"
+  },
+  {
+    "id": 112,
+    "name": "Slough",
+    "region_id": 9,
+    "ita_id": null,
+    "ons_code": "E06000039"
+  },
+  {
+    "id": 113,
+    "name": "Wokingham",
+    "region_id": 9,
+    "ita_id": null,
+    "ons_code": "E06000041"
+  },
+  {
+    "id": 114,
+    "name": "Reading",
+    "region_id": 9,
+    "ita_id": null,
+    "ons_code": "E06000038"
+  },
+  {
+    "id": 115,
+    "name": "Bath and North East Somerset",
+    "region_id": 1,
+    "ita_id": null,
+    "ons_code": "E06000022"
+  },
+  {
+    "id": 116,
+    "name": "Shropshire",
+    "region_id": 10,
+    "ita_id": null,
+    "ons_code": "E06000051"
+  },
+  {
+    "id": 117,
+    "name": "Staffordshire",
+    "region_id": 10,
+    "ita_id": null,
+    "ons_code": "E10000028"
+  },
+  {
+    "id": 118,
+    "name": "Brent",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000005"
+  },
+  {
+    "id": 119,
+    "name": "Derby",
+    "region_id": 2,
+    "ita_id": null,
+    "ons_code": "E06000015"
+  },
+  {
+    "id": 120,
+    "name": "Luton",
+    "region_id": 7,
+    "ita_id": null,
+    "ons_code": "E06000032"
+  },
+  {
+    "id": 121,
+    "name": "Enfield",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000010"
+  },
+  {
+    "id": 122,
+    "name": "Hackney",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000012"
+  },
+  {
+    "id": 123,
+    "name": "Essex",
+    "region_id": 7,
+    "ita_id": null,
+    "ons_code": "E10000012"
+  },
+  {
+    "id": 124,
+    "name": "Redbridge",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000026"
+  },
+  {
+    "id": 125,
+    "name": "Waltham Forest",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000031"
+  },
+  {
+    "id": 126,
+    "name": "Suffolk",
+    "region_id": 7,
+    "ita_id": null,
+    "ons_code": "E10000029"
+  },
+  {
+    "id": 127,
+    "name": "Southend-on-Sea",
+    "region_id": 7,
+    "ita_id": null,
+    "ons_code": "E06000033"
+  },
+  {
+    "id": 128,
+    "name": "Thurrock",
+    "region_id": 7,
+    "ita_id": null,
+    "ons_code": "E06000034"
+  },
+  {
+    "id": 129,
+    "name": "Peterborough",
+    "region_id": 7,
+    "ita_id": null,
+    "ons_code": "E06000031"
+  },
+  {
+    "id": 130,
+    "name": "North Lincolnshire",
+    "region_id": 8,
+    "ita_id": null,
+    "ons_code": "E06000013"
+  },
+  {
+    "id": 131,
+    "name": "North East Lincolnshire",
+    "region_id": 8,
+    "ita_id": null,
+    "ons_code": "E06000012"
+  },
+  {
+    "id": 132,
+    "name": "Hartlepool",
+    "region_id": 11,
+    "ita_id": null,
+    "ons_code": "E06000001"
+  },
+  {
+    "id": 133,
+    "name": "East Sussex",
+    "region_id": 9,
+    "ita_id": null,
+    "ons_code": "E10000011"
+  },
+  {
+    "id": 134,
+    "name": "Croydon",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000008"
+  },
+  {
+    "id": 135,
+    "name": "Surrey",
+    "region_id": 9,
+    "ita_id": null,
+    "ons_code": "E10000030"
+  },
+  {
+    "id": 136,
+    "name": "Brighton and Hove",
+    "region_id": 9,
+    "ita_id": null,
+    "ons_code": "E06000043"
+  },
+  {
+    "id": 137,
+    "name": "Southampton",
+    "region_id": 9,
+    "ita_id": null,
+    "ons_code": "E06000045"
+  },
+  {
+    "id": 138,
+    "name": "Dorset",
+    "region_id": 1,
+    "ita_id": null,
+    "ons_code": "E10000009"
+  },
+  {
+    "id": 139,
+    "name": "Cornwall excluding Isles of Scilly",
+    "region_id": 1,
+    "ita_id": null,
+    "ons_code": "E06000052"
+  },
+  {
+    "id": 140,
+    "name": "Stoke-on-Trent",
+    "region_id": 10,
+    "ita_id": null,
+    "ons_code": "E06000021"
+  },
+  {
+    "id": 141,
+    "name": "Birmingham",
+    "region_id": 10,
+    "ita_id": null,
+    "ons_code": "E08000025"
+  },
+  {
+    "id": 142,
+    "name": "Oxfordshire",
+    "region_id": 9,
+    "ita_id": null,
+    "ons_code": "E10000025"
+  },
+  {
+    "id": 143,
+    "name": "South Gloucestershire",
+    "region_id": 1,
+    "ita_id": null,
+    "ons_code": "E06000025"
+  },
+  {
+    "id": 144,
+    "name": "Bristol, City of",
+    "region_id": 1,
+    "ita_id": null,
+    "ons_code": "E06000023"
+  },
+  {
+    "id": 145,
+    "name": "Camden",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000007"
+  },
+  {
+    "id": 146,
+    "name": "Hammersmith and Fulham",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000013"
+  },
+  {
+    "id": 147,
+    "name": "Ealing",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000009"
+  },
+  {
+    "id": 148,
+    "name": "West Cheshire",
+    "region_id": 5,
+    "ita_id": null,
+    "ons_code": "E06000050"
+  },
+  {
+    "id": 149,
+    "name": "Wolverhampton",
+    "region_id": 10,
+    "ita_id": null,
+    "ons_code": "E08000031"
+  },
+  {
+    "id": 150,
+    "name": "Walsall",
+    "region_id": 10,
+    "ita_id": null,
+    "ons_code": "E08000030"
+  },
+  {
+    "id": 151,
+    "name": "Solihull",
+    "region_id": 10,
+    "ita_id": null,
+    "ons_code": "E08000029"
+  },
+  {
+    "id": 152,
+    "name": "Coventry",
+    "region_id": 10,
+    "ita_id": null,
+    "ons_code": "E08000026"
+  },
+  {
+    "id": 153,
+    "name": "Leicester",
+    "region_id": 2,
+    "ita_id": null,
+    "ons_code": "E06000016"
+  },
+  {
+    "id": 154,
+    "name": "Norfolk",
+    "region_id": 7,
+    "ita_id": null,
+    "ons_code": "E10000020"
+  },
+  {
+    "id": 155,
+    "name": "Herefordshire, County of",
+    "region_id": 10,
+    "ita_id": null,
+    "ons_code": "E06000019"
+  },
+  {
+    "id": 156,
+    "name": "Halton",
+    "region_id": 5,
+    "ita_id": null,
+    "ons_code": "E06000006"
+  },
+  {
+    "id": 157,
+    "name": "Knowsley",
+    "region_id": 5,
+    "ita_id": null,
+    "ons_code": "E08000011"
+  },
+  {
+    "id": 158,
+    "name": "St. Helens",
+    "region_id": 5,
+    "ita_id": null,
+    "ons_code": "E08000013"
+  },
+  {
+    "id": 159,
+    "name": "Sheffield",
+    "region_id": 8,
+    "ita_id": null,
+    "ons_code": "E08000019"
+  },
+  {
+    "id": 160,
+    "name": "Bolton",
+    "region_id": 5,
+    "ita_id": null,
+    "ons_code": "E08000001"
+  },
+  {
+    "id": 161,
+    "name": "Liverpool",
+    "region_id": 5,
+    "ita_id": null,
+    "ons_code": "E08000012"
+  },
+  {
+    "id": 162,
+    "name": "Oldham",
+    "region_id": 5,
+    "ita_id": null,
+    "ons_code": "E08000004"
+  },
+  {
+    "id": 163,
+    "name": "Stockton-on-Tees",
+    "region_id": 11,
+    "ita_id": null,
+    "ons_code": "E06000004"
+  },
+  {
+    "id": 164,
+    "name": "Darlington",
+    "region_id": 11,
+    "ita_id": null,
+    "ons_code": "E06000005"
+  },
+  {
+    "id": 165,
+    "name": "Haringey",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000014"
+  },
+  {
+    "id": 166,
+    "name": "South Tyneside",
+    "region_id": 11,
+    "ita_id": null,
+    "ons_code": "E08000023"
+  },
+  {
+    "id": 167,
+    "name": "Newham",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000025"
+  },
+  {
+    "id": 168,
+    "name": "Barking and Dagenham",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000002"
+  },
+  {
+    "id": 169,
+    "name": "Kingston upon Hull, City of",
+    "region_id": 8,
+    "ita_id": null,
+    "ons_code": "E06000010"
+  },
+  {
+    "id": 170,
+    "name": "Middlesbrough",
+    "region_id": 11,
+    "ita_id": null,
+    "ons_code": "E06000002"
+  },
+  {
+    "id": 171,
+    "name": "Redcar and Cleveland",
+    "region_id": 11,
+    "ita_id": null,
+    "ons_code": "E06000003"
+  },
+  {
+    "id": 172,
+    "name": "Newcastle upon Tyne",
+    "region_id": 11,
+    "ita_id": null,
+    "ons_code": "E08000021"
+  },
+  {
+    "id": 173,
+    "name": "North Tyneside",
+    "region_id": 11,
+    "ita_id": null,
+    "ons_code": "E08000022"
+  },
+  {
+    "id": 174,
+    "name": "City of London",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000001"
+  },
+  {
+    "id": 175,
+    "name": "Richmond upon Thames",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000027"
+  },
+  {
+    "id": 176,
+    "name": "Bromley",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000006"
+  },
+  {
+    "id": 177,
+    "name": "Sutton",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000029"
+  },
+  {
+    "id": 178,
+    "name": "Kingston upon Thames",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000021"
+  },
+  {
+    "id": 179,
+    "name": "Windsor and Maidenhead",
+    "region_id": 9,
+    "ita_id": null,
+    "ons_code": "E06000040"
+  },
+  {
+    "id": 180,
+    "name": "Bracknell Forest",
+    "region_id": 9,
+    "ita_id": null,
+    "ons_code": "E06000036"
+  },
+  {
+    "id": 181,
+    "name": "Swindon",
+    "region_id": 1,
+    "ita_id": null,
+    "ons_code": "E06000030"
+  },
+  {
+    "id": 182,
+    "name": "Bournemouth",
+    "region_id": 1,
+    "ita_id": null,
+    "ons_code": "E06000028"
+  },
+  {
+    "id": 183,
+    "name": "North Somerset",
+    "region_id": 1,
+    "ita_id": null,
+    "ons_code": "E06000024"
+  },
+  {
+    "id": 184,
+    "name": "Torbay",
+    "region_id": 1,
+    "ita_id": null,
+    "ons_code": "E06000027"
+  },
+  {
+    "id": 185,
+    "name": "Harrow",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000015"
+  },
+  {
+    "id": 186,
+    "name": "Bedford",
+    "region_id": 7,
+    "ita_id": null,
+    "ons_code": "E06000055"
+  },
+  {
+    "id": 187,
+    "name": "Telford and Wrekin",
+    "region_id": 10,
+    "ita_id": null,
+    "ons_code": "E06000020"
+  },
+  {
+    "id": 188,
+    "name": "Nottingham",
+    "region_id": 2,
+    "ita_id": null,
+    "ons_code": "E06000018"
+  },
+  {
+    "id": 189,
+    "name": "Dudley",
+    "region_id": 10,
+    "ita_id": null,
+    "ons_code": "E08000027"
+  },
+  {
+    "id": 190,
+    "name": "Sandwell",
+    "region_id": 10,
+    "ita_id": null,
+    "ons_code": "E08000028"
+  },
+  {
+    "id": 191,
+    "name": "Milton Keynes",
+    "region_id": 9,
+    "ita_id": null,
+    "ons_code": "E06000042"
+  },
+  {
+    "id": 192,
+    "name": "Sefton",
+    "region_id": 5,
+    "ita_id": null,
+    "ons_code": "E08000014"
+  },
+  {
+    "id": 193,
+    "name": "Blackpool",
+    "region_id": 5,
+    "ita_id": null,
+    "ons_code": "E06000009"
+  },
+  {
+    "id": 194,
+    "name": "Barnsley",
+    "region_id": 8,
+    "ita_id": null,
+    "ons_code": "E08000016"
+  },
+  {
+    "id": 195,
+    "name": "Bradford",
+    "region_id": 8,
+    "ita_id": null,
+    "ons_code": "E08000032"
+  },
+  {
+    "id": 196,
+    "name": "Tameside",
+    "region_id": 5,
+    "ita_id": null,
+    "ons_code": "E08000008"
+  },
+  {
+    "id": 197,
+    "name": "Kirklees",
+    "region_id": 8,
+    "ita_id": null,
+    "ons_code": "E08000034"
+  },
+  {
+    "id": 198,
+    "name": "Blackburn with Darwen",
+    "region_id": 5,
+    "ita_id": null,
+    "ons_code": "E06000008"
+  },
+  {
+    "id": 199,
+    "name": "Isle of Wight",
+    "region_id": 9,
+    "ita_id": null,
+    "ons_code": "E06000046"
+  },
+  {
+    "id": 200,
+    "name": "Poole",
+    "region_id": 1,
+    "ita_id": null,
+    "ons_code": "E06000029"
+  },
+  {
+    "id": 201,
+    "name": "Havering",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000016"
+  },
+  {
+    "id": 202,
+    "name": "York",
+    "region_id": 8,
+    "ita_id": null,
+    "ons_code": "E06000014"
+  },
+  {
+    "id": 203,
+    "name": "Plymouth",
+    "region_id": 1,
+    "ita_id": null,
+    "ons_code": "E06000026"
+  },
+  {
+    "id": 204,
+    "name": "Merton",
+    "region_id": 6,
+    "ita_id": null,
+    "ons_code": "E09000024"
+  },
+  {
+    "id": 205,
+    "name": "Caerphilly",
+    "region_id": 4,
+    "ita_id": null,
+    "ons_code": "W06000018"
+  },
+  {
+    "id": 206,
+    "name": "East Renfrewshire",
+    "region_id": 3,
+    "ita_id": null,
+    "ons_code": "S12000011"
+  },
+  {
+    "id": 207,
+    "name": "Cheshire",
+    "region_id": 5,
+    "ita_id": null,
+    "ons_code": "E10000004"
+  },
+  {
+    "id": 208,
+    "name": "Bedfordshire",
+    "region_id": 7,
+    "ita_id": null,
+    "ons_code": "E10000001"
+  },
+  {
+    "id": 209,
+    "name": "Bournemouth, Christchurch and Poole",
+    "region_id": 1,
+    "ita_id": null,
+    "ons_code": "E06000058"
+  },
+  {
+    "id": 210,
+    "name": "Dorset",
+    "region_id": 1,
+    "ita_id": null,
+    "ons_code": "E06000059"
+  },
+  {
+    "id": 211,
+    "name": "North Northamptonshire",
+    "region_id": 2,
+    "ita_id": null,
+    "ons_code": "E06000061"
+  },
+  {
+    "id": 212,
+    "name": "West Northamptonshire",
+    "region_id": 2,
+    "ita_id": null,
+    "ons_code": "E06000062"
+  },
+  {
+    "id": 213,
+    "name": "Cumberland",
+    "region_id": 5,
+    "ita_id": null,
+    "ons_code": "E06000063"
+  },
+  {
+    "id": 214,
+    "name": "Westmorland and Furness",
+    "region_id": 5,
+    "ita_id": null,
+    "ons_code": "E06000064"
+  }
+]

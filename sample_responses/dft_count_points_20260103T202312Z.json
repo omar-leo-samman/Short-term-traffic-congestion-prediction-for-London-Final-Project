@@ -1,0 +1,182 @@
+{
+  "current_page": 1,
+  "data": [
+    {
+      "id": 51,
+      "count_point_id": 51,
+      "aadf_year": 2024,
+      "region_id": 1,
+      "local_authority_id": 1,
+      "road_name": "A3111",
+      "road_category": "PA",
+      "road_type": "Major",
+      "start_junction_road_name": "Pierhead, Hugh Town",
+      "end_junction_road_name": "A3112",
+      "easting": 90173,
+      "northing": 10641,
+      "latitude": "49.91550316",
+      "longitude": "-6.31755805",
+      "link_length_km": "0.30",
+      "link_length_miles": "0.19"
+    },
+    {
+      "id": 52,
+      "count_point_id": 52,
+      "aadf_year": 2024,
+      "region_id": 1,
+      "local_authority_id": 1,
+      "road_name": "A3112",
+      "road_category": "PA",
+      "road_type": "Major",
+      "start_junction_road_name": "A3111",
+      "end_junction_road_name": "A3110",
+      "easting": 91203,
+      "northing": 10217,
+      "latitude": "49.91223308",
+      "longitude": "-6.30291304",
+      "link_length_km": "2.00",
+      "link_length_miles": "1.24"
+    },
+    {
+      "id": 53,
+      "count_point_id": 53,
+      "aadf_year": 2024,
+      "region_id": 1,
+      "local_authority_id": 1,
+      "road_name": "A3111",
+      "road_category": "PA",
+      "road_type": "Major",
+      "start_junction_road_name": "A3112",
+      "end_junction_road_name": "A3110",
+      "easting": 90782,
+      "northing": 10687,
+      "latitude": "49.91623084",
+      "longitude": "-6.30913635",
+      "link_length_km": "1.20",
+      "link_length_miles": "0.75"
+    },
+    {
+      "id": 54,
+      "count_point_id": 54,
+      "aadf_year": 2024,
+      "region_id": 1,
+      "local_authority_id": 1,
+      "road_name": "A3110",
+      "road_category": "PA",
+      "road_type": "Major",
+      "start_junction_road_name": "A3111",
+      "end_junction_road_name": "A3112",
+      "easting": 91515,
+      "northing": 10820,
+      "latitude": "49.91780213",
+      "longitude": "-6.29906151",
+      "link_length_km": "0.30",
+      "link_length_miles": "0.19"
+    },
+    {
+      "id": 55,
+      "count_point_id": 55,
+      "aadf_year": 2024,
+      "region_id": 1,
+      "local_authority_id": 1,
+      "road_name": "A3110",
+      "road_category": "PA",
+      "road_type": "Major",
+      "start_junction_road_name": "A3111",
+      "end_junction_road_name": "A3112",
+      "easting": 91664,
+      "northing": 10833,
+      "latitude": "49.91799555",
+      "longitude": "-6.29700225",
+      "link_length_km": "4.00",
+      "link_length_miles": "2.49"
+    }
+  ],
+  "first_page_url": "https://roadtraffic.dft.gov.uk/api/count-points?page%5Bsize%5D=5&page%5Bnumber%5D=1",
+  "from": 1,
+  "last_page": 9251,
+  "last_page_url": "https://roadtraffic.dft.gov.uk/api/count-points?page%5Bsize%5D=5&page%5Bnumber%5D=9251",
+  "links": [
+    {
+      "url": null,
+      "label": "&laquo; Previous",
+      "active": false
+    },
+    {
+      "url": "https://roadtraffic.dft.gov.uk/api/count-points?page%5Bsize%5D=5&page%5Bnumber%5D=1",
+      "label": "1",
+      "active": true
+    },
+    {
+      "url": "https://roadtraffic.dft.gov.uk/api/count-points?page%5Bsize%5D=5&page%5Bnumber%5D=2",
+      "label": "2",
+      "active": false
+    },
+    {
+      "url": "https://roadtraffic.dft.gov.uk/api/count-points?page%5Bsize%5D=5&page%5Bnumber%5D=3",
+      "label": "3",
+      "active": false
+    },
+    {
+      "url": "https://roadtraffic.dft.gov.uk/api/count-points?page%5Bsize%5D=5&page%5Bnumber%5D=4",
+      "label": "4",
+      "active": false
+    },
+    {
+      "url": "https://roadtraffic.dft.gov.uk/api/count-points?page%5Bsize%5D=5&page%5Bnumber%5D=5",
+      "label": "5",
+      "active": false
+    },
+    {
+      "url": "https://roadtraffic.dft.gov.uk/api/count-points?page%5Bsize%5D=5&page%5Bnumber%5D=6",
+      "label": "6",
+      "active": false
+    },
+    {
+      "url": "https://roadtraffic.dft.gov.uk/api/count-points?page%5Bsize%5D=5&page%5Bnumber%5D=7",
+      "label": "7",
+      "active": false
+    },
+    {
+      "url": "https://roadtraffic.dft.gov.uk/api/count-points?page%5Bsize%5D=5&page%5Bnumber%5D=8",
+      "label": "8",
+      "active": false
+    },
+    {
+      "url": "https://roadtraffic.dft.gov.uk/api/count-points?page%5Bsize%5D=5&page%5Bnumber%5D=9",
+      "label": "9",
+      "active": false
+    },
+    {
+      "url": "https://roadtraffic.dft.gov.uk/api/count-points?page%5Bsize%5D=5&page%5Bnumber%5D=10",
+      "label": "10",
+      "active": false
+    },
+    {
+      "url": null,
+      "label": "...",
+      "active": false
+    },
+    {
+      "url": "https://roadtraffic.dft.gov.uk/api/count-points?page%5Bsize%5D=5&page%5Bnumber%5D=9250",
+      "label": "9250",
+      "active": false
+    },
+    {
+      "url": "https://roadtraffic.dft.gov.uk/api/count-points?page%5Bsize%5D=5&page%5Bnumber%5D=9251",
+      "label": "9251",
+      "active": false
+    },
+    {
+      "url": "https://roadtraffic.dft.gov.uk/api/count-points?page%5Bsize%5D=5&page%5Bnumber%5D=2",
+      "label": "Next &raquo;",
+      "active": false
+    }
+  ],
+  "next_page_url": "https://roadtraffic.dft.gov.uk/api/count-points?page%5Bsize%5D=5&page%5Bnumber%5D=2",
+  "path": "https://roadtraffic.dft.gov.uk/api/count-points",
+  "per_page": 5,
+  "prev_page_url": null,
+  "to": 5,
+  "total": 46251
+}
