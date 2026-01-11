@@ -16,7 +16,8 @@ image = (
     modal.Image.debian_slim()
     .pip_install_from_requirements("requirements.txt")
     # AQUI AGREGAMOS "confluent-kafka" 👇
-    .pip_install("jupyter", "nbconvert", "ipykernel", "pyarrow", "confluent-kafka")
+    .pip_install("jupyter", "nbconvert", "ipykernel", "pyarrow", "confluent-kafka","tensorflow",    # <--- NECESARIO para cargar el modelo .keras
+        "scikit-learn")
     .add_local_dir(local_notebooks_path, remote_path="/root/notebooks")
     .add_local_dir(local_src_path, remote_path="/root/src")
 )
@@ -39,7 +40,7 @@ secrets = [
 )
 def run_traffic_pipeline():
     notebooks_to_run = [
-        "/root/notebooks/07_realtime_feature_update_modal_30min.ipynb",
+        #"/root/notebooks/07_realtime_feature_update_modal_30min.ipynb",
         "/root/notebooks/08_inference_pipeline.ipynb"
     ]
     
