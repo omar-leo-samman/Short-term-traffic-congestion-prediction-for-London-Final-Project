@@ -17,7 +17,7 @@ image = (
     .pip_install_from_requirements("requirements.txt")
     # AQUI AGREGAMOS "confluent-kafka" 👇
     .pip_install("jupyter", "nbconvert", "ipykernel", "pyarrow", "confluent-kafka","tensorflow",    # <--- NECESARIO para cargar el modelo .keras
-        "scikit-learn")
+        "scikit-learn","huggingface-hub")
     .add_local_dir(local_notebooks_path, remote_path="/root/notebooks")
     .add_local_dir(local_src_path, remote_path="/root/src")
 )
