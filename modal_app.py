@@ -40,7 +40,7 @@ secrets = [
 )
 def run_traffic_pipeline():
     notebooks_to_run = [
-        #"/root/notebooks/07_realtime_feature_update_modal_30min.ipynb",
+        "/root/notebooks/07_realtime_feature_update_modal_30min.ipynb",
         "/root/notebooks/08_inference_pipeline.ipynb"
     ]
     
