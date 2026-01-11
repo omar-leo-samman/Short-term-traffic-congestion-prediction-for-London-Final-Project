@@ -39,7 +39,8 @@ The pipeline integrates multiple public data sources:
 
 ## Repository Structure
 
-.
+```text
+
 ├── notebooks/
 │   ├── 00_api_smoke_tests.ipynb
 │   ├── 01_data_collection_and_eda.ipynb
@@ -60,7 +61,7 @@ The pipeline integrates multiple public data sources:
 ├── requirements.txt
 ├── pyproject.toml
 └── README.md
-
+```
 ---
 
 ## Pipeline Architecture
