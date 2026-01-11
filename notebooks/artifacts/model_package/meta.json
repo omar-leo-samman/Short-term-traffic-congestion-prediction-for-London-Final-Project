@@ -1,0 +1,7 @@
+{
+  "time_col": "ts_10m",
+  "point_id_col": "point_id",
+  "label_30_col": "label_speed_ratio_t_plus_30",
+  "label_60_col": "label_speed_ratio_t_plus_60",
+  "n_features": 39
+}
