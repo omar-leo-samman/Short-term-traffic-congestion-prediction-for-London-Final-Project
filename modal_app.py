@@ -1,34 +1,41 @@
 import modal
 import subprocess
+import os
+import sys
 
-# 1. Define the Image
-# We install dependencies from requirements.txt and add jupyter tools
+# --- 1. CONFIGURACIÓN DE RUTAS LOCALES ---
+base_path = os.path.dirname(__file__)
+local_notebooks_path = os.path.join(base_path, "notebooks")
+local_src_path = os.path.join(base_path, "src")
+
+if not os.path.exists(local_notebooks_path):
+    raise RuntimeError(f"❌ ERROR: No encuentro la carpeta 'notebooks' en: {local_notebooks_path}")
+
+# --- 2. DEFINICIÓN DE LA IMAGEN ---
 image = (
     modal.Image.debian_slim()
     .pip_install_from_requirements("requirements.txt")
-    .pip_install("jupyter", "nbconvert", "ipykernel")
+    # AQUI AGREGAMOS "confluent-kafka" 👇
+    .pip_install("jupyter", "nbconvert", "ipykernel", "pyarrow", "confluent-kafka")
+    .add_local_dir(local_notebooks_path, remote_path="/root/notebooks")
+    .add_local_dir(local_src_path, remote_path="/root/src")
 )
 
 app = modal.App("london-traffic-scheduler", image=image)
 
-# 2. Define Secrets
-# You must create these in the Modal Dashboard (modal.com/secrets)
+# --- 3. SECRETOS ---
 secrets = [
-    modal.Secret.from_name("hopsworks-api-key"),
-    modal.Secret.from_name("huggingface-api-key"),
-    modal.Secret.from_name("tomtom-api-key"),
-    modal.Secret.from_name("tfl-app-key"),
+    modal.Secret.from_name("HOPSWORKS_API_KEY"),
+    modal.Secret.from_name("HUGGINGFACE_API_KEY"),
+    modal.Secret.from_name("TOMTOM_API_KEY"),
+    modal.Secret.from_name("TFL_APP_KEY"),
 ]
 
-# 3. Mount the notebooks directory so the container can see them
-notebooks_mount = modal.Mount.from_local_dir("notebooks", remote_path="/root/notebooks")
-
-# 4. Define the Scheduled Function
+# --- 4. FUNCIÓN PROGRAMADA ---
 @app.function(
     secrets=secrets,
-    mounts=[notebooks_mount],
-    schedule=modal.Cron("*/30 * * * *"),  # Runs every 30 minutes
-    timeout=1800  # Allow up to 30 minutes execution time
+    schedule=modal.Cron("*/30 * * * *"),
+    timeout=1800 
 )
 def run_traffic_pipeline():
     notebooks_to_run = [
@@ -36,22 +43,41 @@ def run_traffic_pipeline():
         "/root/notebooks/08_inference_pipeline.ipynb"
     ]
     
+    env_vars = os.environ.copy()
+    env_vars["PYTHONPATH"] = "/root" 
+
+    print("🚀 Iniciando pipeline de tráfico de Londres...")
+
     for nb_path in notebooks_to_run:
-        print(f"🚀 Starting execution of: {nb_path}")
+        print(f"▶️  Ejecutando: {nb_path} ...")
         
-        # We use nbconvert to execute the notebook in place
-        try:
-            subprocess.check_call(
-                [
-                    "jupyter",
-                    "nbconvert",
-                    "--to", "notebook",
-                    "--execute",
-                    "--inplace",
-                    nb_path
-                ]
-            )
-            print(f"✅ Successfully finished: {nb_path}")
-        except subprocess.CalledProcessError as e:
-            print(f"❌ Error executing {nb_path}")
-            raise e
+        result = subprocess.run(
+            [
+                "jupyter",
+                "nbconvert",
+                "--to", "notebook",
+                "--execute",
+                "--inplace",
+                "--ExecutePreprocessor.kernel_name=python3",
+                nb_path
+            ],
+            capture_output=True,
+            text=True,
+            env=env_vars
+        )
+        
+        if result.returncode != 0:
+            print(f"\n❌ FALLÓ EL NOTEBOOK: {nb_path}")
+            print("================= LOG DEL ERROR (STDOUT/STDERR) =================")
+            if result.stdout:
+                print("--- SALIDA ESTÁNDAR ---")
+                print(result.stdout)
+            if result.stderr:
+                print("--- ERRORES ---")
+                print(result.stderr)
+            print("=================================================================")
+            raise Exception(f"La ejecución se detuvo porque falló {nb_path}")
+        else:
+            print(f"✅ Terminado con éxito: {nb_path}")
+
+    print("🏁 Pipeline completado correctamente.")
